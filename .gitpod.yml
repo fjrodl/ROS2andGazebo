@@ -1,0 +1,6 @@
+image: tiryoh/ros2:humble
+ports:
+- port: 6080
+  onOpen: notify
+- port: 10000-20000
+  onOpen: ignore
