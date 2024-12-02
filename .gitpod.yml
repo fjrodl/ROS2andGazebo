@@ -1,4 +1,4 @@
-image: tiryoh/ros2:humble
+image: tiryoh/ros2-desktop-vnc:humble
 ports:
 - port: 6080
   onOpen: notify
